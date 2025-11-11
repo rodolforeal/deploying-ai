@@ -27,3 +27,14 @@ deploying-ai-env
 *.jsonl
 *.htm
 *.txt
+
+
+# Ignore Python cache
+__pycache__/
+
+# Ignore environment variables
+.env
+.secrets
+
+# Ignore our large, persistent vector database
+hotel_reviews_db/
